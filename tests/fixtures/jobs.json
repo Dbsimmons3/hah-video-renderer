@@ -1,0 +1,64 @@
+{
+  "_note": "Real published numbers: Freight Pulse week of 2026-11-02 (api/freight-pulse/latest.json), EIA U.S. diesel 2026-08-24..2026-11-09, the October 2026 new-carrier report (top 15 states).",
+  "pulse_short": {
+    "key": "2026-11-02",
+    "week_label": "Week of Nov 2",
+    "diesel": 6.127,
+    "diesel_change": null,
+    "diesel_as_of": "Nov 9",
+    "new_carriers": 2605,
+    "states": [["Texas", 327], ["California", 244], ["Florida", 210]]
+  },
+  "diesel_trend": {
+    "key": "2026-11-02",
+    "region": "US",
+    "as_of": "2026-11-09",
+    "points": [
+      {"period": "2026-08-24", "price": 5.652},
+      {"period": "2026-08-31", "price": 5.599},
+      {"period": "2026-09-07", "price": 5.967},
+      {"period": "2026-09-14", "price": 6.285},
+      {"period": "2026-09-21", "price": 6.529},
+      {"period": "2026-09-28", "price": 6.382},
+      {"period": "2026-10-05", "price": 6.199},
+      {"period": "2026-10-12", "price": 6.179},
+      {"period": "2026-10-19", "price": 6.276},
+      {"period": "2026-10-26", "price": 6.352},
+      {"period": "2026-11-02", "price": 6.292},
+      {"period": "2026-11-09", "price": 6.127}
+    ]
+  },
+  "carrier_map": {
+    "key": "2026-10",
+    "month_label": "October 2026",
+    "total": 13012,
+    "previous_total": null,
+    "previous_label": null,
+    "states": [
+      {"state": "TX", "name": "Texas", "count": 1534},
+      {"state": "CA", "name": "California", "count": 1314},
+      {"state": "FL", "name": "Florida", "count": 1104},
+      {"state": "PA", "name": "Pennsylvania", "count": 609},
+      {"state": "GA", "name": "Georgia", "count": 604},
+      {"state": "NY", "name": "New York", "count": 582},
+      {"state": "NJ", "name": "New Jersey", "count": 536},
+      {"state": "IL", "name": "Illinois", "count": 523},
+      {"state": "OH", "name": "Ohio", "count": 448},
+      {"state": "NC", "name": "North Carolina", "count": 435},
+      {"state": "MN", "name": "Minnesota", "count": 333},
+      {"state": "IN", "name": "Indiana", "count": 270},
+      {"state": "MI", "name": "Michigan", "count": 263},
+      {"state": "MA", "name": "Massachusetts", "count": 253},
+      {"state": "MD", "name": "Maryland", "count": 251}
+    ]
+  },
+  "card": {
+    "key": "test-card",
+    "eyebrow": "New carriers, October 2026",
+    "title": "13,012 new trucking companies registered in October",
+    "lines": [
+      "Texas led with 1,534, then California (1,314) and Florida (1,104).",
+      "Check authority and insurance before you tender a load."
+    ]
+  }
+}
